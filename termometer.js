@@ -9,7 +9,7 @@ function updateTermometer(){
     if(valoarea < 0){
       termometer.style.background = "blue";
     }
-    if(valoarea > 0){
+  else if(valoarea > 0){
       termometer.style.background = "green";
     }
   }
